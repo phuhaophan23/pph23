@@ -1,0 +1,51 @@
+* {
+    box-sizing: inherit;
+
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+    height: 364px;
+}
+
+.grid__row {
+    display: flex;
+}
+
+.grid__column-6 {
+    width: 50%;
+}
+
+.grid__column-left {
+    margin-left: 54px;
+    width: 341px;
+}
+
+/* .input__resume-click {
+    display: none;
+}
+
+.input__resume-click:checked ~ .resume {
+    display: block;
+}
+
+.input__resume-click:checked ~ .header__aboutme {
+    color: #000;
+}
+
+.input__resume-click:checked ~ .header__resume {
+    color: #0151FF;
+}
+
+.input__resume-click:checked ~ .content {
+    display: none;
+} */
